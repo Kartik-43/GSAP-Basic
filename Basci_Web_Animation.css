@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  "Poppins", "Raleway", "Lato", "Noto Sans";
+}
+
+html, Body{
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+h2{
+    color: #fff;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+#part2{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+h1{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    text-wrap: nowrap;
+}

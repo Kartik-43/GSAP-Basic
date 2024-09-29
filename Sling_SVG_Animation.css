@@ -1,0 +1,24 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family:  'Poppins', 'Raleway', 'Lato', 'Noto Sans';
+}
+
+html, Body{
+background-color: #111;
+width: 100%;
+height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#string{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
