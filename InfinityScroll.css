@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  'Poppins', 'Raleway', 'Lato', 'Noto Sans';
+}
+
+html, Body{
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+}
+
+#move{
+    background-color: #D9FF06;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+
+.marque{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    padding: 0 1.5vw;
+
+    transform: translateX(-100%);
+}
+
+.marque h1{
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.marque img{
+    height: 4.2vw;
+}
