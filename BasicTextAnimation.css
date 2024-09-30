@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Poppins', 'Lato', 'Noto Sans';
+}
+
+html, Body{
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1{
+    font-size: 10vw;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.a, .b{
+    display: inline-block;
+}
